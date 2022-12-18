@@ -1,0 +1,17 @@
+REM Restore Internet From The Computer
+REM Target: Windows
+REM Auth : oxooi
+REM Source: https://github.com/Oxooi/FlipperZero_BadUSB_scripts
+DELAY 300
+
+GUI R
+DELAY 100
+STRING cmd
+DELAY 300
+ENTER
+DELAY 300
+STRING ipconfig /renew
+DELAY 300
+ENTER
+DELAY 200
+ALT F4
