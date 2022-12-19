@@ -1,0 +1,14 @@
+REM Title: Rick Roll Kiosk Mode
+REM Author: Oxooi
+REM Description: RickRoll if you are not able to use the CMD Prompt
+REM Target: Windows
+REM
+GUI R
+DELAY 100
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+DELAY 100
+ENTER
+DELAY 300
+SPACE
+DELAY 300
+STRING F
