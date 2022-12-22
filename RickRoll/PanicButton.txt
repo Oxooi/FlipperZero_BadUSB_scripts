@@ -1,0 +1,16 @@
+REM Title: Panic Button
+REM Author: Oxooi
+REM Description: Its a panic button to shutdown the PC quickly if needed
+REM 
+REM If u want to 'Sleep Mode' the PC : Put 'v' on the last STRING line 
+REM
+REM If u want to 'Shutdown' the PC : Put 'a' on the last STRING line
+REM
+REM Target: Windows
+REM
+
+GUI X
+DELAY 100
+STRING d
+DELAY 100
+STRING a
